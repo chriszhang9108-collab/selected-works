@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="视觉设计作品选集，涵盖品牌视觉、商业广告、企业画册、地产营销与数字平台设计。"
+    />
+    <meta name="theme-color" content="#11110f" />
+    <meta property="og:title" content="Selected Works · 视觉设计作品选集" />
+    <meta
+      property="og:description"
+      content="Brand, Editorial, Campaign and Digital Design Portfolio."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/sandvik-01-thumb.webp"
+      type="image/webp"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Selected Works · 视觉设计作品选集</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#works">跳到作品</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="返回首页">
+        <span class="wordmark-mark">W<span>.</span></span>
+        <span class="wordmark-text">Selected<br />Works</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="打开导航"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-menu-toggle
+      >
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主导航" data-nav>
+        <a href="#works">作品</a>
+        <a href="#profile">简介</a>
+        <a href="#details">信息</a>
+      </nav>
+
+      <p class="header-edition">Portfolio / 2026</p>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-gridline" aria-hidden="true"></div>
+
+        <div class="hero-copy">
+          <p class="eyebrow reveal">视觉设计作品选集 <span>2020—2026</span></p>
+          <h1 id="hero-title" class="hero-title reveal">
+            <span>Selected</span>
+            <span class="accent-line">Works<sup>20</sup></span>
+          </h1>
+          <div class="hero-summary reveal">
+            <p>
+              从品牌传播到企业画册，<br />
+              以清晰的信息结构与鲜明视觉，<br />
+              回应不同商业场景。
+            </p>
+            <span class="hero-summary-en">Brand · Editorial<br />Campaign · Digital</span>
+          </div>
+        </div>
+
+        <div class="hero-collage" aria-label="精选作品预览" data-hero-collage>
+          <figure class="hero-card hero-card-a reveal">
+            <img
+              src="assets/images/sandvik-01-thumb.webp"
+              alt="山特维克企业宣传册版面"
+              width="1100"
+              height="751"
+              fetchpriority="high"
+            />
+            <figcaption>Editorial / 01</figcaption>
+          </figure>
+          <figure class="hero-card hero-card-b reveal">
+            <img
+              src="assets/images/binhe-floor-guide-thumb.webp"
+              alt="滨河御景苑楼层导视设计"
+              width="1100"
+              height="1100"
+              fetchpriority="high"
+            />
+            <figcaption>Property / 02</figcaption>
+          </figure>
+          <figure class="hero-card hero-card-c reveal">
+            <img
+              src="assets/images/pechoin-beauty-thumb.webp"
+              alt="百雀羚美肤电商视觉"
+              width="777"
+              height="1100"
+              fetchpriority="high"
+            />
+            <figcaption>Campaign / 03</figcaption>
+          </figure>
+        </div>
+
+        <div class="hero-index reveal" aria-label="作品统计">
+          <div><strong>05</strong><span>Project<br />Groups</span></div>
+          <div><strong>20</strong><span>Selected<br />Pieces</span></div>
+        </div>
+
+        <a class="scroll-cue" href="#works">
+          <span>向下浏览</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="intro" id="profile" aria-labelledby="intro-title">
+        <p class="section-label reveal">01 / Profile</p>
+        <div class="intro-copy">
+          <h2 id="intro-title" class="reveal">
+            设计不只是让信息<br />
+            <em>被看见</em>，更要让它<br />
+            被理解、被记住。
+          </h2>
+          <div class="intro-detail reveal">
+            <p>
+              这组作品覆盖品牌电商、商业活动、工业画册、地产营销与平台传播，
+              通过版式、色彩、图像和文字层级建立可识别的视觉系统。
+            </p>
+            <ul aria-label="设计领域">
+              <li>品牌与电商视觉</li>
+              <li>画册与信息编排</li>
+              <li>活动与整合传播</li>
+              <li>地产与空间物料</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="works" aria-labelledby="works-title">
+        <div class="work-heading reveal">
+          <p class="section-label">02 / Selected Projects</p>
+          <h2 id="works-title">精选项目</h2>
+          <p>点击任意作品可查看大图</p>
+        </div>
+
+        <div class="filter-wrap" data-filter-wrap>
+          <div class="filters" role="group" aria-label="筛选作品">
+            <button class="is-active" type="button" data-filter="all" aria-pressed="true">
+              全部 <span>05</span>
+            </button>
+            <button type="button" data-filter="editorial" aria-pressed="false">
+              画册 <span>01</span>
+            </button>
+            <button type="button" data-filter="property" aria-pressed="false">
+              地产 <span>01</span>
+            </button>
+            <button type="button" data-filter="brand" aria-pressed="false">
+              品牌 <span>01</span>
+            </button>
+            <button type="button" data-filter="campaign" aria-pressed="false">
+              活动 <span>01</span>
+            </button>
+            <button type="button" data-filter="digital" aria-pressed="false">
+              数字 <span>01</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="project-list" data-project-list></div>
+
+        <noscript>
+          <p class="noscript-note">请启用 JavaScript 以浏览完整作品集。</p>
+        </noscript>
+      </section>
+
+      <section class="details" id="details" aria-labelledby="details-title">
+        <p class="section-label reveal">03 / Details</p>
+        <div class="details-grid">
+          <h2 id="details-title" class="reveal">视觉系统，<br />服务真实场景。</h2>
+          <p class="details-lead reveal">
+            每一类媒介都有不同的阅读节奏。作品从信息层级出发，
+            在屏幕、印刷与空间物料之间保持清晰一致的表达。
+          </p>
+          <div class="service-list reveal">
+            <div><span>01</span><strong>品牌视觉</strong><small>Brand Visual</small></div>
+            <div><span>02</span><strong>画册编排</strong><small>Editorial Design</small></div>
+            <div><span>03</span><strong>商业传播</strong><small>Campaign Design</small></div>
+            <div><span>04</span><strong>数字内容</strong><small>Digital Content</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="closing-orbit" aria-hidden="true"><span>20</span></div>
+        <p class="section-label reveal">End / Selected Works</p>
+        <h2 id="closing-title" class="reveal">让作品<br /><em>继续发生。</em></h2>
+        <a class="back-top reveal" href="#top">回到顶部 <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Selected Works / Visual Design Portfolio</p>
+      <p>Brand · Editorial · Campaign · Digital</p>
+      <p>© <span data-year>2026</span></p>
+    </footer>
+
+    <dialog class="viewer" data-viewer aria-labelledby="viewer-title">
+      <div class="viewer-backdrop" data-viewer-backdrop></div>
+      <div class="viewer-panel">
+        <div class="viewer-toolbar">
+          <p><span data-viewer-index>01 / 20</span><strong id="viewer-title" data-viewer-title></strong></p>
+          <button type="button" data-viewer-close aria-label="关闭大图">关闭 ×</button>
+        </div>
+        <div class="viewer-stage">
+          <button class="viewer-arrow viewer-prev" type="button" data-viewer-prev aria-label="上一张">←</button>
+          <img data-viewer-image src="" alt="" />
+          <button class="viewer-arrow viewer-next" type="button" data-viewer-next aria-label="下一张">→</button>
+        </div>
+        <p class="viewer-caption" data-viewer-caption></p>
+      </div>
+    </dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
