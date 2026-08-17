@@ -305,7 +305,7 @@ a {
 .hero-card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .hero-card figcaption {
@@ -319,26 +319,28 @@ a {
 }
 
 .hero-card-a {
-  top: 4%;
+  top: 0;
   right: 2%;
-  width: 72%;
-  aspect-ratio: 1.45;
+  width: 43%;
+  aspect-ratio: 0.59;
   transform: rotate(2deg);
 }
 
 .hero-card-b {
-  right: 42%;
-  bottom: 5%;
-  width: 44%;
-  aspect-ratio: 1;
+  top: 14%;
+  right: auto;
+  bottom: auto;
+  left: 2%;
+  width: 40%;
+  aspect-ratio: 0.56;
   transform: rotate(-4deg);
 }
 
 .hero-card-c {
-  right: 2%;
-  bottom: 1%;
-  width: 32%;
-  aspect-ratio: 0.7;
+  right: 25%;
+  bottom: 0;
+  width: 38%;
+  aspect-ratio: 0.66;
   transform: rotate(5deg);
 }
 
@@ -670,7 +672,7 @@ em {
 }
 
 .art-card.is-landscape .art-frame { aspect-ratio: 1.42; }
-.art-card.is-portrait .art-frame { aspect-ratio: 0.71; }
+.art-card.is-portrait .art-frame { aspect-ratio: 0.64; }
 .art-card.is-square .art-frame { aspect-ratio: 1; }
 .art-card.is-banner .art-frame { aspect-ratio: 2.75; }
 
@@ -690,6 +692,11 @@ em {
   object-fit: contain;
   transition: transform 650ms var(--ease);
 }
+
+.project[data-project="flavor"] .art-frame { background: #e8e1d8; }
+.project[data-project="product"] .art-frame { background: #e4e8eb; }
+.project[data-project="travel"] .art-frame { background: #e4e7e1; }
+.project[data-project="lifestyle"] .art-frame { background: #e5e3df; }
 
 .art-hover {
   position: absolute;
@@ -1113,13 +1120,13 @@ em {
     top: auto;
     right: auto;
     width: 100%;
-    height: 70vw;
+    height: 92vw;
     margin-top: 58px;
   }
 
-  .hero-card-a { right: 0; width: 78%; }
-  .hero-card-b { right: auto; left: 0; width: 45%; }
-  .hero-card-c { right: 2%; width: 34%; }
+  .hero-card-a { top: 0; right: 0; width: 46%; }
+  .hero-card-b { top: 12%; right: auto; left: 0; width: 43%; }
+  .hero-card-c { right: 24%; bottom: 0; width: 40%; }
   .hero-index { display: none; }
   .scroll-cue { bottom: 30px; }
 
